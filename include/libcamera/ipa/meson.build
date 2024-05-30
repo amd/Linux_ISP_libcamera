@@ -66,6 +66,7 @@ pipeline_ipa_mojom_mapping = {
     'rkisp1': 'rkisp1.mojom',
     'rpi/vc4': 'raspberrypi.mojom',
     'vimc': 'vimc.mojom',
+    'amd/isp4': 'amd.mojom',
 }
 
 #

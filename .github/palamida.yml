@@ -1,0 +1,4 @@
+disabled: false
+scmId: gh-onprem-atg
+branchesToScan:
+  - atg-dev
