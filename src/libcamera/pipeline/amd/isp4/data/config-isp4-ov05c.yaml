@@ -1,0 +1,23 @@
+# SPDX-License-Identifier: LGPL-2.1-or-later
+#
+# Copyright (C) 2024, Advanced Micro Devices Inc.
+#
+%YAML 1.1
+---
+version: 1.0
+sensor:
+  sensor id: "ov05c_mipi0"
+isp4:
+  - entity name: "Preview"
+    buffer count: 4
+    minimum resolution: [640, 480]
+    maximum resolution: [2888, 1808]
+  - entity name: "Video"
+    buffer count: 4
+    minimum resolution: [640, 480]
+    maximum resolution: [2888, 1808]
+  - entity name: "Still"
+    buffer count: 4
+    minimum resolution: [640, 480]
+    maximum resolution: [2888, 1808]
+...
