@@ -46,6 +46,7 @@ option('pipelines',
         choices : [
             'all',
             'auto',
+            'amd/isp4',
             'imx8-isi',
             'ipu3',
             'mali-c55',

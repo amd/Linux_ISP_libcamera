@@ -1,0 +1,6 @@
+# Copyright (C) 2025, Advanced Micro Devices Inc.
+
+disabled: false
+scmId: gh-onprem-atg
+branchesToScan:
+  - atg-dev
